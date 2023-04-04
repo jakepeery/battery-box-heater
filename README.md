@@ -1,6 +1,7 @@
 # battery-box-heater
 Controls 4 individual battery heaters in the same heating box, each with their own temp sensor.  Setup to limit the max temp of the heaters themselves to not over-heat and melt the plastic.  Also controls up to two cooling fans and two relay outputs to turn off the solar panels and the charge controler input.
 
+Project uses an ESP32
 
 Temp sensors for batteries (4 sensors to be mounted under each battery)
 Temp sensor for battery box/top of batteries (one sensor on top of the batteries to measure the box temp)
